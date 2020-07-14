@@ -10,4 +10,4 @@ RUN cp /nginx-rrd-0.1.4/etc/nginx-rrd.conf /etc #複製配置文件到 /etc 下
 RUN mkdir /usr/share/nginx/rrd
 RUN cp /nginx-rrd-0.1.4/html/index.php /usr/share/nginx/html/index.pho
 
-RUN yum install perl rrdtool perl-libwww-perl libwww-perl perl-rrdtool
+RUN yum install perl rrdtool perl-libwww-perl libwww-perl perl-rrdtool -y
